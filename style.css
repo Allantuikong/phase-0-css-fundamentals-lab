@@ -12,6 +12,12 @@ header {
   text-align: center;
 }
 
+header a {
+  padding: 0 10px;
+  background-color: lightgrey;
+}
+
+
 img {
   display: block; 
   /* This ensures that the image behaves as a block-level element, which makes it easier to manipulate its layout properties. */
