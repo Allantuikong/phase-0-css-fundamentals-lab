@@ -3,3 +3,48 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* h1 {
+  color: red;
+} */
+
+header {
+  text-align: center;
+}
+
+img {
+  display: block; 
+  /* This ensures that the image behaves as a block-level element, which makes it easier to manipulate its layout properties. */
+  margin: 0 auto;
+  /* This sets the top and bottom margins to 0 (ensuring no extra space) and automatically centers the image horizontally within its parent container. The auto value for the left and right margins makes the browser calculate equal margins on both sides of the image, effectively centering it. */
+
+}
+
+#details {
+  text-align: center;
+}
+
+#details a {
+  padding: 0 10px;
+  background-color: grey
+}
+
+figcaption {
+  font-size: small;
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#details > div {
+  width: 25%;   /*Make each div occupy 25% of the width */
+  float: left;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: brown;
+  text-align: center;
+}
